@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c5ec380786d17d549920f45afe25da5e
+timeCreated: 1479800952
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Effect1: {fileID: 174590, guid: bb3313e26c56a404f89d894efee4af47, type: 2}
+  - SE_tamb: {fileID: 195156, guid: f5c5507337d4aa542b7196c702e68c42, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
