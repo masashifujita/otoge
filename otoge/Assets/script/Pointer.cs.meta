@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5931f2499cbeb7e41b0320f79999f644
+timeCreated: 1480042127
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - pointa: {fileID: 168176, guid: bd60fc2db1d46be47bb1022fcfdeb38d, type: 2}
+  - Ecamera: {fileID: 2013718, guid: 5c281d3d9744c3d4eabe6ad92891efe8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

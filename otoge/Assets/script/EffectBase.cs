@@ -12,12 +12,20 @@ public class EffectBase : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Space))
-		{
-			GameObject TapSE = Instantiate (SE_tamb);
-            GameObject TapEffect = Instantiate(Effect1);
-            TapEffect.transform.localPosition = transform.localPosition;
-        }
+        ////キーボード用
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    GameObject TapSE = Instantiate(SE_tamb);
+        //    GameObject TapEffect = Instantiate(Effect1);
+        //    TapEffect.transform.localPosition = transform.localPosition;
+        //}
 	
 	}
+
+    private void OnMouseDown()
+    {
+        GameObject TapSE = Instantiate(SE_tamb);
+        GameObject TapEffect = Instantiate(Effect1);
+        TapEffect.transform.localPosition = transform.localPosition;
+    }
 }
