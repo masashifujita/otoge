@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 5931f2499cbeb7e41b0320f79999f644
-timeCreated: 1480042127
+timeCreated: 1484191097
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - pointa: {fileID: 168176, guid: bd60fc2db1d46be47bb1022fcfdeb38d, type: 2}
-  - Ecamera: {fileID: 2013718, guid: 5c281d3d9744c3d4eabe6ad92891efe8, type: 2}
+  - Click_Effect: {fileID: 177860, guid: af8eaf3729ee230448c90be6d935d449, type: 2}
+  - Drag_Effect: {fileID: 129148, guid: 2de653bff13bc5041a577f931e6eacb0, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
