@@ -5,7 +5,7 @@ public class Button : MonoBehaviour {
 
     public void SceneLoad()
     {
-        Application.LoadLevel("scene/EffectSetting");
+        Application.LoadLevel("scene/Game");
     }
 
     public void OnMouseEnter()
