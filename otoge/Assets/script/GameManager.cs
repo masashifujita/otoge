@@ -52,6 +52,10 @@ public class GameManager : MonoBehaviour {
     {
         CheckNextNotes();
         scoreText.text = score.ToString();
+        if(audioSource.isPlaying==false)
+        {
+            Application.LoadLevel("scene/Result");
+        }
     }
 
     public void StartGame()
