@@ -16,8 +16,12 @@ public class GameManager : MonoBehaviour {
     public float timeOffset = -1;
 
     public Text scoreText;
-    private int score = 0;
-
+    public static int score = 0;
+    //public static int Score
+    //{
+    //    set { Score = value; }
+    //    get { return score; }
+    //}
 
     void LoatCSV()
     {
