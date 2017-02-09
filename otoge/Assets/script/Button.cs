@@ -7,6 +7,10 @@ public class Button : MonoBehaviour {
     {
         Application.LoadLevel("scene/Game");
     }
+    public void SceneCut()
+    {
+        Application.LoadLevel("scene/Result");
+    }
 
     public void OnMouseEnter()
     {
